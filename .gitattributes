@@ -1,2 +1,26 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+bin
+obj
+csx
+.vs
+edge
+Publish
+
+*.user
+*.suo
+*.cscfg
+*.Cache
+project.lock.json
+
+/packages
+/TestResults
+
+/tools/NuGet.exe
+/App_Data
+/secrets
+/data
+/node_modules
+.secrets
+appsettings.json
+local.settings.json
